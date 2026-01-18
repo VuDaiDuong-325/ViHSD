@@ -7,10 +7,10 @@ This project is a hybrid content moderation system designed to detect hate speec
 Due to GitHub's file size limits, the large pre-trained embedding vectors and model weights are hosted externally. **You must download these files to run the project locally or on Colab:**
 
 * **Word Embeddings:** `cc.vi.300.vec` (FastText Vietnamese)
-* **Trained Model:** `hate_speech_model.h5` & `tokenizer.pickle` 
+* **Trained Models:** `hate_speech_model.h5` & `tokenizer.pickle` 
 * 👉 [**Click here to download from Google Drive**](https://drive.google.com/drive/folders/1m41I9HwABPZX5RsOGwcBbmECC7rEnOEe?usp=sharing)
 
-*Please place these files inside the `embedding/` and `models/` folders respectively after downloading.*
+*Please place these files inside the `embedding/` and `model/` folders respectively after downloading.*
 
 ## Features
 * **Hybrid Approach:** Prioritizes whitelist/blacklist keywords before using AI inference.
