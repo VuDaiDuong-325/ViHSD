@@ -1,9 +1,9 @@
 # 🛡️ Vietnamese Hate Speech Detection System
 
-## 📝 Introduction
+## Introduction
 This project is a hybrid content moderation system designed to detect hate speech and offensive language on Vietnamese social media. It combines **Rule-based filtering** (handling teencode, slang, and mixed variations) with a **Deep Learning model (Bi-LSTM)** trained on embedded word vectors. The system features a real-time web interface powered by Flask and Ngrok for instant text classification.
 
-## 📥 Pre-trained Assets & Models (Required)
+## Pre-trained Assets & Models (Required)
 Due to GitHub's file size limits, large pre-trained embedding vectors and model weights are hosted externally. **You must download these files to run the project:**
 
 * **Word Embeddings:** `cc.vi.300.vec` (FastText Vietnamese)
@@ -12,13 +12,13 @@ Due to GitHub's file size limits, large pre-trained embedding vectors and model 
 
 *Please place these files inside the `embedding/` and `model/` folders respectively after downloading.*
 
-## ✨ Features
+## Features
 * **Hybrid Approach:** Prioritizes whitelist/blacklist keywords before using AI inference.
 * **Teencode Processing:** Automatically translates Vietnamese internet slang into standard text.
 * **Bi-LSTM Model:** Captures contextual semantic meanings effectively.
 * **Web App Demo:** Interactive UI to test comments in real-time.
 
-## 🚀 How to Run
+## How to Run
 
 ### Method 1: Run on Google Colab (Recommended)
 You can run the entire project directly in your browser without local installation.
@@ -41,6 +41,3 @@ You can run the entire project directly in your browser without local installati
 * **DL Framework:** TensorFlow / Keras
 * **NLP Tools:** NLTK, Regex, FastText
 * **Web Framework:** Flask, PyNgrok
-
----
-*Developed by **Vu Dai Duong***
