@@ -33,10 +33,10 @@ You can run the entire project directly in your browser without local installati
     * Sign up for a free account at [dashboard.ngrok.com](https://dashboard.ngrok.com/get-started/your-authtoken).
     * Copy your **Authtoken** and paste it into the "Web App" cell.
 
-4.  **Run All Cells:** * Click **Runtime** > **Run all**.
+4.  **Run All Cells:** Click **Runtime** > **Run all**.
     * Click the public URL (e.g., `xxxx.ngrok-free.app`) generated in the output to access the interface.
 
-## 🛠 Technologies
+## Technologies
 * **Language:** Python
 * **DL Framework:** TensorFlow / Keras
 * **NLP Tools:** NLTK, Regex, FastText
