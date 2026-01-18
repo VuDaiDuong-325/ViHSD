@@ -20,7 +20,7 @@ Due to GitHub's file size limits, large pre-trained embedding vectors and model 
 
 ## How to Run
 
-### Method 1: Run on Google Colab (Recommended)
+### Run on Google Colab (Recommended)
 You can run the entire project directly in your browser without local installation.
 
 1.  **Open the notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VuDaiDuong-325/ViHSD/blob/DesktopUIT/HateSpeech.ipynb)
