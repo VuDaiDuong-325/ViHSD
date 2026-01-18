@@ -3,6 +3,15 @@
 ## Introduction
 This project is a hybrid content moderation system designed to detect hate speech and offensive language on Vietnamese social media. It combines **Rule-based filtering** (handling teencode, slang, and mixed variations) with a **Deep Learning model (Bi-LSTM)** trained on embedded word vectors. The system features a real-time web interface powered by Flask and Ngrok for instant text classification.
 
+## 📥 Pre-trained Assets & Models (Required)
+Due to GitHub's file size limits, the large pre-trained embedding vectors and model weights are hosted externally. **You must download these files to run the project locally or on Colab:**
+
+* **Word Embeddings:** `cc.vi.300.vec` (FastText Vietnamese)
+* **Trained Model:** `hate_speech_model.h5` & **`tokenizer.pickle` 
+* 👉 [**Click here to download from Google Drive**](https://drive.google.com/drive/folders/1m41I9HwABPZX5RsOGwcBbmECC7rEnOEe?usp=sharing)
+
+*Please place these files inside the `embedding/` and `models/` folders respectively after downloading.*
+
 ## Features
 * **Hybrid Approach:** Prioritizes whitelist/blacklist keywords before using AI inference.
 * **Teencode Processing:** automatically translates Vietnamese internet slang (e.g., "ng", "tq", "ccho") into standard text.
@@ -35,5 +44,3 @@ You can run the entire project directly in your browser without installation.
 * **NLP:** NLTK, Regex
 * **Web Framework:** Flask, PyNgrok
 
----
-*Created by [Your Name]*
