@@ -7,14 +7,14 @@ This project is a hybrid content moderation system designed to detect hate speec
 Due to GitHub's file size limits, the large pre-trained embedding vectors and model weights are hosted externally. **You must download these files to run the project locally or on Colab:**
 
 * **Word Embeddings:** `cc.vi.300.vec` (FastText Vietnamese)
-* **Trained Model:** `hate_speech_model.h5` & **`tokenizer.pickle` 
+* **Trained Model:** `hate_speech_model.h5` & `tokenizer.pickle` 
 * 👉 [**Click here to download from Google Drive**](https://drive.google.com/drive/folders/1m41I9HwABPZX5RsOGwcBbmECC7rEnOEe?usp=sharing)
 
 *Please place these files inside the `embedding/` and `models/` folders respectively after downloading.*
 
 ## Features
 * **Hybrid Approach:** Prioritizes whitelist/blacklist keywords before using AI inference.
-* **Teencode Processing:** automatically translates Vietnamese internet slang (e.g., "ng", "tq", "ccho") into standard text.
+* **Teencode Processing:** automatically translates Vietnamese internet slang into standard text.
 * **Bi-LSTM Model:** Captures contextual semantic meanings effectively.
 * **Web App Demo:** Interactive UI to test comments in real-time.
 
