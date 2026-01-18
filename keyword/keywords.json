@@ -1,0 +1,116 @@
+{
+  "Phân biệt vùng miền": [
+    "bắc kỳ",
+    "nam kỳ",
+    "trung kỳ",
+    "parky",
+    "namiki",
+    "hoa thanh que",
+    "nhà quê",
+    "tộc",
+    "mọi miên",
+    "bake",
+    "narke"
+  ],
+  "Chính trị / Nhạy cảm": [
+    "phản động",
+    "cộng sản",
+    "chế độ",
+    "đu càng",
+    "ba que",
+    "tham nhũng",
+    "dân chủ cuội",
+    "bò đỏ",
+    "cách mạng màu"
+  ],
+  "Kích động / Bạo lực": [
+    "bắn bỏ",
+    "giết",
+    "chém",
+    "tử hình",
+    "đánh chết",
+    "thủ tiêu",
+    "xử bắn",
+    "treo cổ",
+    "băm vằm",
+    "thanh trừng"
+  ],
+  "Cổ xúy / Xúi giục": {
+    "Từ khóa cố định": [
+      "tự tử đi",
+      "tự sát đi",
+      "nhảy cầu đi",
+      "nhảy lầu đi",
+      "reset kiếp sau"
+    ],
+    "Biến thể Regex (Ngắn gọn)": [
+      "(mày|m|bạn|con|thằng|nó)[ ]*chết[ ]*(đi|đê|liền|ngay)",
+      "chết[ ]*(đi|đê|liền|ngay|luôn)",
+      "reset[ ]*(game|server)[ ]*đi"
+    ]
+  },
+  "Xúc phạm / Tục tĩu": {
+    "Từ khóa cố định": [
+      "ngu si",
+      "ngu học",
+      "ngu dốt",
+      "óc chó",
+      "đồ chó",
+      "chó đẻ",
+      "chó chết",
+      "súc vật",
+      "cút xéo",
+      "mẹ mày",
+      "cặc",
+      "lồn",
+      "đéo",
+      "đụ",
+      "buồi",
+      "cak",
+      "kak",
+      "đĩ",
+      "điếm",
+      "phò",
+      "bitch",
+      "cave",
+      "dcmm",
+      "đcmm",
+      "vcl"
+    ],
+    "Biến thể Regex (Ngắn gọn)": [
+      "\\bc[.,\\s]*m[.,\\s]*(m|n)\\b",
+      "\\b(đ|d)[.,\\s]*(c|k)?[.,\\s]*m+\\b",
+      "\\bv[.,\\s]*(l|c|k)+\\b",
+      "\\b(c)?[.,\\s]*m[.,\\s]*m[.,\\s]*b\\b",
+      "\\bb[.,\\s]*m[.,\\s]*g\\b",
+      "(đ|d)[.,\\s]*é[.,\\s]*o",
+      "c[.,\\s]*ặ[.,\\s]*c"
+    ]
+  },
+  "Miệt thị ngoại hình (Body Shaming)": [
+    "béo như lợn",
+    "mập như heo",
+    "con heo mập",
+    "xấu đau xấu đớn",
+    "mặt lồn",
+    "màn hình phẳng",
+    "hai lưng"
+  ],
+  "Phân biệt giới tính": [
+    "đồ đàn bà",
+    "óc đàn bà",
+    "tính đàn bà",
+    "thứ đàn bà",
+    "mấy con dẩm",
+    "về rửa bát",
+    "về hầu chồng",
+    "máy đẻ"
+  ],
+  "Phân biệt tôn giáo": [
+    "thợ tu",
+    "sư hổ mang",
+    "tà đạo",
+    "buôn thần bán thánh",
+    "con chiên ghẻ"
+  ]
+}
