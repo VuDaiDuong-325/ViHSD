@@ -1,4 +1,5 @@
 # 🛡️ Vietnamese Hate Speech Detection System
+> Developed by Vu Dai Duong - CE student at UIT
 
 ## Introduction
 This project is a hybrid content moderation system designed to detect hate speech and offensive language on Vietnamese social media. It combines **Rule-based filtering** (handling teencode, slang, and mixed variations) with a **Deep Learning model (Bi-LSTM)** trained on embedded word vectors. The system features a real-time web interface powered by Flask and Ngrok for instant text classification.
