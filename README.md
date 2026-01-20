@@ -38,7 +38,7 @@ Due to GitHub's file size limits, large pre-trained embedding vectors and model 
 ## Features
 * **Hybrid Approach:** Prioritizes whitelist/blacklist keywords before using AI inference.
 * **Smart Preprocessing:**
-* * Automatically handles **Emoji Unicode** and **Emoticons**.
+  * Automatically handles **Emoji Unicode** and **Emoticons**.
   * Converts icons into **Vietnamese semantic text** to improve model accuracy.
   * Translates **Teencode** and **internet slang** into standard Vietnamese.
 * **Bi-LSTM Model:** Captures contextual semantic meanings effectively.
@@ -57,7 +57,7 @@ You can run the entire project directly in your browser without local installati
 3.  **Setup Ngrok:**
     * Sign up for a free account at [dashboard.ngrok.com](https://dashboard.ngrok.com/get-started/your-authtoken).
     * Copy your **Authtoken** and paste it into the **Web App cell** at:
-      *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*
+      *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*.
 
 4.  **Run All Cells:** Click **Runtime** > **Run all**.
     * Click the public URL (e.g., `xxxx.ngrok-free.app`) generated in the output to access the interface.
