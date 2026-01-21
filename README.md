@@ -2,7 +2,7 @@
 > **Developed by Vu Dai Duong - CE student at UIT**
 
 ## Introduction
-A hybrid content moderation system for Vietnamese, combining **Rule-based filtering** and **Artificial Intelligence (Bi-LSTM)**. The system features an **Active Learning** mechanism to continuously improve based on user feedback.
+This project is an advanced content moderation system for Vietnamese, combining **Rule-based filtering** and **Deep Learning (Bi-LSTM)**. The system is built as an **Automated Pipeline** featuring an **Active Learning** mechanism that allows the model to continuously evolve and improve from user feedback through a secure Admin Dashboard.
 
 ## Project Structure
 The system is designed to be self-sufficient. It will automatically generate configuration and model files if they are missing.
@@ -36,7 +36,7 @@ Due to file size limits, large pre-trained embeddings must be downloaded manuall
 * **Active Learning Loop:**
   * **User Feedback:** Real-time reporting via Web UI.
   * **Admin Dashboard:** Secure review and approval system.
-  * **Auto-Retrain:** Updates the model weights and .keras files automatically after 100 approved sentences.
+  * **Real-time Retraining:** Automatically triggers model fine-tuning and updates .keras files after reaching a **100-approved-entry** threshold
 
 ## How to Run
 
