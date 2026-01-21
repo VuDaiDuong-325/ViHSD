@@ -1,5 +1,7 @@
-# 🛡️ Vietnamese Hate Speech Detection System
-> Developed by Vu Dai Duong - CE student at UIT
+# 🛡️ Automated ViHSD Pipeline with Real-time Retraining
+## *A Hybrid Content Moderation System with Active Learning & Admin Dashboard*
+
+> **Developed by Vu Dai Duong - CE student at UIT**
 
 ## Introduction
 A hybrid content moderation system for Vietnamese, combining **Rule-based filtering** and **Artificial Intelligence (Bi-LSTM)**. The system features an **Active Learning** mechanism to continuously improve based on user feedback.
