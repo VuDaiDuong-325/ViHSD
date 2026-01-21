@@ -50,7 +50,7 @@ You can run the entire project directly in your browser without local installati
 
 3.  **Configuration:**
     * Update *BASE_PATH* in Cell 2
-    * Enter your [Ngrok Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) into the **Web App cell *(Cell 9)*** at:
+    * Enter your [Ngrok Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) into the **Web App cell *(Cell 9)*** at:  
       *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*.
 
 5.  **Run All Cells:** Click **Runtime** > **Run all**.  
