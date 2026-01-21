@@ -53,12 +53,13 @@ You can run the entire project directly in your browser without local installati
     * Enter your [Ngrok Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) into the **Web App cell *(Cell 9)*** at:
       *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*.
 
-5.  **Run All Cells:** Click **Runtime** > **Run all**. The system is designed to be self-generating. Upon the first execution, it will automatically create all necessary JSON configurations, directory structures, and train the initial model as long as the dataset and embedding vectors are provided.
+5.  **Run All Cells:** Click **Runtime** > **Run all**.[space][space]
+   *The system is designed to be self-generating. Upon the first execution, it will automatically create all necessary JSON configurations, directory structures, and train the initial model as long as the dataset and embedding vectors are provided.*
     * Access the Web Interface:
       * **User Interface**: Open the URL labeled **TRANG NGƯỜI DÙNG** in the cell output.
       * **Admin Dashboard**: Open the URL labeled **TRANG QUẢN TRỊ** in the cell output.
 
-6.  **Testing & Moderation**
+7.  **Testing & Moderation**
     * For **Users**:
       * **Check content:** 
         * Enter or paste a comment into the text box: *Nhập bình luận của bạn vào đây...*.
