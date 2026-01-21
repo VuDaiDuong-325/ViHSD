@@ -1,6 +1,4 @@
 # 🛡️ Automated ViHSD Pipeline with Real-time Retraining
-## *A Hybrid Content Moderation System with Active Learning & Admin Dashboard*
-
 > **Developed by Vu Dai Duong - CE student at UIT**
 
 ## Introduction
