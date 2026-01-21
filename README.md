@@ -47,7 +47,7 @@ You can run the entire project directly in your browser without local installati
 
 2.  **[Requirement] Upload Data:** You only need to provide the **FastText vector** (cc.vi.300.vec) and your **dataset.csv**.
 
-3.  **Configuration:
+3.  **Configuration:**
     * Update *BASE_PATH* in Cell 2
     * Enter your [Ngrok Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) into the **Web App cell *(Cell 9)*** at:
       *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*.
