@@ -49,7 +49,7 @@ Due to file size limits, large pre-trained embeddings must be downloaded manuall
 * **Automated MLOps & Active Learning:**
   * **User Feedback Loop:** Users can report incorrect predictions directly via the Web UI.
   * **Smart Data Pipeline:** Validated data is automatically **mapped, deduplicated, and merged** into the main dataset.
-  * **Real-time Retraining:** The system automatically triggers model fine-tuning and updates .keras files once the approved data threshold is reached.
+  * **Real-time Retraining:** The system automatically triggers model fine-tuning and updates `.keras` files once the approved data threshold is reached.
 * **Interactive Admin Dashboard:**
   * **Monkey Login UI:** A fun and functional authentication interface where the mascot reacts to password visibility (hides/shows eyes).
   * **Secure Moderation:** Tools for administrators to Review, Approve (Clean/Offensive/Hate), or Discard user reports.
@@ -68,20 +68,20 @@ You can run the entire project directly in your browser without local installati
     * Enter your [Ngrok Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) into the **Web App cell *(Cell 9)*** at:  
       *NGROK_TOKEN = "(PASTE_YOUR_TOKEN_HERE)"*.
 
-5.  **Run All Cells:** Click **Runtime** > **Run all**.  
+4.  **Run All Cells:** Click **Runtime** > **Run all**.  
    *The system is designed to be self-generating. Upon the first execution, it will automatically create all necessary JSON configurations, directory structures, and train the initial model as long as the dataset and embedding vectors are provided.*
     * Access the Web Interface:
       * **User Interface**: Open the URL labeled **TRANG NGƯỜI DÙNG** in the cell output.
       * **Admin Dashboard**: Open the URL labeled **TRANG QUẢN TRỊ** in the cell output.
 
-7.  **Testing & Moderation**
+5.  **Testing & Moderation**
     * For **Users**:
       * **Check content:** 
         * Enter or paste a comment into the text box: *Nhập bình luận của bạn tại đây...*.
         * Click **KIỂM TRA NGAY** (Check) to view the classification result.
       * **Report Errors:** If the AI prediction is incorrect, click the **Báo cáo kết quả sai** (Report Error) button to submit the case.
     * For **Administrator**:
-      * **Login:** Access the Admin URL and enter the password *(Default: admin123)*. You can also reach this page by clicking **Khu vực quản trị viên** (Admin Login) from the User Interface.
+      * **Login:** Access the Admin URL and enter the password *(Default: `admin123`)*. You can also reach this page by clicking **Khu vực quản trị viên** (Admin Login) from the User Interface.
       * **Review Reports:** In the dashboard, you will see a list of user reports:
         * **Approve:** Click the correct label (*Clean*, *Offensive*, or *Hate*) in **Chọn nhãn chính xác** (Choose the correct label) column to confirm and move data to the training pool.
         * **Discard:** Click **Xóa rác** (Delete) to remove invalid or spam reports.
