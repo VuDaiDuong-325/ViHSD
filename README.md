@@ -3,11 +3,11 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Project Structure](#projectstructure)
-- [Prerequisites & External Resources](#prerequisites&externalresources)
-- [Features](#features)
 - [Project Structure](#project-structure)
+- [Prerequisites & External Resources](#prerequisites--external-resources)
+- [Features](#features)
 - [How to Run](#how-to-run)
+- [Technologies](#technologies)
 
 ## Introduction
 This project is an advanced content moderation system designed for **Vietnamese social media contexts**, combining **Rule-based filtering**, **Cross-lingual checks (Vietnamese & English)**, and **Deep Learning (Bi-LSTM)**.  
