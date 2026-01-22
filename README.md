@@ -3,6 +3,8 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Project Structure](#projectstructure)
+- [Prerequisites & External Resources](#prerequisites&externalresources)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
@@ -32,7 +34,7 @@ ViHSD/
 │   └── approved_pool.csv              # [Auto-gen] Approved data for retraining
 └── HateSpeech.ipynb                   # Main System Engine & UI
 ```
-## Pre-trained Assets & Models (Required)
+## Prerequisites & External Resources
 Due to file size limits, large pre-trained embeddings must be downloaded manually:
 * **Word Embeddings:** `cc.vi.300.vec` (FastText Vietnamese - 300d, 2M vectors).
   * 👉 [**Download from Kaggle (Recommended)**](https://www.kaggle.com/datasets/aeryss/fasttext-vietnamese-word-vectors-full)
