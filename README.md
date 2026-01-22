@@ -1,8 +1,15 @@
 # 🛡️ Automated ViHSD Pipeline with Real-time Retraining
 > **Developed by Vu Dai Duong - CE student at UIT**
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+
 ## Introduction
-This project is an advanced content moderation system for Vietnamese, combining **Rule-based filtering** and **Deep Learning (Bi-LSTM)**. The system is built as an **Automated Pipeline** featuring an **Active Learning** mechanism that allows the model to continuously evolve and improve from user feedback through a secure Admin Dashboard.
+This project is an advanced content moderation system designed for **Vietnamese social media contexts**, combining **Rule-based filtering**, **Cross-lingual checks (Vietnamese & English)**, and **Deep Learning (Bi-LSTM)**.  
+The system is built as an **Automated Pipeline** featuring an **Active Learning** mechanism. This allows the AI model to continuously evolve and improve based on user feedback. It also features a secure and interactive **Admin Dashboard** (incorporating UX enhancements) to streamline the data verification process.
 
 ## Project Structure
 The system is designed to be self-sufficient. It will automatically generate configuration and model files if they are missing.
@@ -11,7 +18,7 @@ The system is designed to be self-sufficient. It will automatically generate con
 ViHSD/
 ├── Embedding&Model/
 │   ├── embedding/ 
-│   │   └── cc.vi.300.vec              # [REQUIRED] Pre-trained FastText Vectors
+│   │   └── cc.vi.300.vec              # [REQUIRED] Pre-trained FastText Vectors 
 │   └── model/
 │       ├── hate_speech_model.keras    # [Auto-gen] Trained AI Model
 │       └── tokenizer.pickle           # [Auto-gen] Text Tokenizer
@@ -32,12 +39,18 @@ Due to file size limits, large pre-trained embeddings must be downloaded manuall
   * 👉 [**Alternative: Official FastText Source**](https://fasttext.cc/docs/en/crawl-vectors.html)
 
 ## Features
-* **Hybrid Detection:** Uses optimized Regex for teencode/slang and Bi-LSTM for deep semantic context.
-* **Contextual Intelligence:** Automatically handles "False Positives" using a built-in **Whitelist**.
-* **Active Learning Loop:**
-  * **User Feedback:** Real-time reporting via Web UI.
-  * **Admin Dashboard:** Secure review and approval system.
-  * **Real-time Retraining:** Automatically triggers model fine-tuning and updates .keras files after reaching a **100-approved-entry** threshold
+* **Hybrid & Cross-Lingual Detection:**
+  * **Deep Learning:** Uses Bi-LSTM with FastText embeddings for semantic analysis of Vietnamese text.
+  * **English Filter:** Integrated dictionary-based scanning to instantly flag English profanity.
+  * **Teencode Support:** Optimized Regex engine to handle Vietnamese slang and internet jargon.
+* **Contextual Intelligence:** Automatically handles "False Positives" using a dynamic **Whitelist** and exception rules, ensuring neutral words aren't flagged incorrectly.
+* **Automated MLOps & Active Learning:**
+  * **User Feedback Loop:** Users can report incorrect predictions directly via the Web UI.
+  * **Smart Data Pipeline:** Validated data is automatically **mapped, deduplicated, and merged** into the main dataset.
+  * **Real-time Retraining:** The system automatically triggers model fine-tuning and updates .keras files once the approved data threshold is reached.
+* **Interactive Admin Dashboard:**
+  * **Monkey Login UI:** A fun and functional authentication interface where the mascot reacts to password visibility (hides/shows eyes).
+  * **Secure Moderation:** Tools for administrators to Review, Approve (Clean/Offensive/Hate), or Discard user reports.
 
 ## How to Run
 
@@ -62,14 +75,14 @@ You can run the entire project directly in your browser without local installati
 7.  **Testing & Moderation**
     * For **Users**:
       * **Check content:** 
-        * Enter or paste a comment into the text box: *Nhập bình luận của bạn vào đây...*.
+        * Enter or paste a comment into the text box: *Nhập bình luận của bạn tại đây...*.
         * Click **KIỂM TRA NGAY** (Check) to view the classification result.
-      * **Report Errors:** If the AI prediction is incorrect, click the **Báo cáo sai** (Report Error) button to submit the case.
+      * **Report Errors:** If the AI prediction is incorrect, click the **Báo cáo kết quả sai** (Report Error) button to submit the case.
     * For **Administrator**:
-      * **Login:** Access the Admin URL and enter the password *(Default: admin123)*. You can also reach this page by clicking **Admin Login** from the User Interface.
+      * **Login:** Access the Admin URL and enter the password *(Default: admin123)*. You can also reach this page by clicking **Khu vực quản trị viên** (Admin Login) from the User Interface.
       * **Review Reports:** In the dashboard, you will see a list of user reports:
-        * **Approve:** Click the correct label (*Clean*, *Offensive*, or *Hate*) to confirm and move data to the training pool.
-        * **Discard:** Click **Xóa bỏ (Rác/Spam)** (Delete) to remove invalid or spam reports.
+        * **Approve:** Click the correct label (*Clean*, *Offensive*, or *Hate*) in **Chọn nhãn chính xác** (Choose the correct label) column to confirm and move data to the training pool.
+        * **Discard:** Click **Xóa rác** (Delete) to remove invalid or spam reports.
       * **Logout:** Click **Đăng xuất** (Logout) to secure your session.
 
 ## Technologies
